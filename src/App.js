@@ -1,23 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import About from "./components/About";
+import Header from "./components/Header";
 
 function App() {
+  const [currentPage, setCurrentPage] = useState("about");
+
+  const handleClick = () => {
+    switch (currentPage) {
+      case "about": //this is basically saying if the current page is "about" then return the About component
+        return <About />; //return the About component if the current page is "about"
+
+      default:
+        //this is basically saying if the current page is not "about"
+        return null; //then return null
+    }
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    //make a div styled with tailwind
+    <div>
+      <Header
+        currentPage={currentPage}
+        setCurrentPage={setCurrentPage}
+      ></Header>
+      <div>{handleClick()}</div>
     </div>
   );
 }
