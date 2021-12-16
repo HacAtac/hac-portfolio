@@ -1,10 +1,13 @@
 import React from "react";
+import About from "./components/About";
 
 function App() {
   return (
     //make a div styled with tailwind
-    <div className="bg-gray-200 h-screen w-screen">
-      <h1 className="text-center text-4xl text-gray-800">Hello World</h1>
+    <div>
+      <main>
+        <About></About>
+      </main>
     </div>
   );
 }
