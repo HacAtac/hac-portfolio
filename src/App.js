@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import About from "./components/About";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 function App() {
   const [currentPage, setCurrentPage] = useState("about");
@@ -13,6 +14,7 @@ function App() {
       default:
         //this is basically saying if the current page is not "about"
         return null; //then return null
+      //this is nice because it will not render anything other than the About component
     }
   };
 
@@ -24,6 +26,9 @@ function App() {
         setCurrentPage={setCurrentPage}
       ></Header>
       <div>{handleClick()}</div>
+      <div>
+        <Footer></Footer>
+      </div>
     </div>
   );
 }
