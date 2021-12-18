@@ -14,6 +14,8 @@ main {
   --light: #fafafa;
   --dark: #000000;
   --darker: #111111;
+  --card: #000000;
+  --card1: #f3a847;
   --background2: rgb(20, 20, 20);
   --error: rgb(228, 46, 1);
   --spacing-one: calc(1rem * 0.5);
@@ -250,8 +252,21 @@ textarea {
 }
 
 .card {
-  width: 25%;
+  width: 40%;
+  margin: 5;
   text-align: center;
+}
+
+.form-input {
+  color: black;
+}
+
+#card1 {
+  background-color: var(--card1);
+}
+
+#bgclr {
+  background-color: var(--card);
 }
 
 .img-thumbnail {

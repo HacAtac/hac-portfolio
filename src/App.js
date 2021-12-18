@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import About from "./components/About";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import Portfolio from "./components/Portfolio";
+import Contact from "./components/Contact";
 
 function App() {
   const [currentPage, setCurrentPage] = useState("about");
@@ -10,7 +12,10 @@ function App() {
     switch (currentPage) {
       case "about": //this is basically saying if the current page is "about" then return the About component
         return <About />; //return the About component if the current page is "about"
-
+      case "portfolio":
+        return <Portfolio />;
+      case "contact":
+        return <Contact />;
       default:
         //this is basically saying if the current page is not "about"
         return null; //then return null
@@ -25,7 +30,9 @@ function App() {
         currentPage={currentPage}
         setCurrentPage={setCurrentPage}
       ></Header>
-      <div>{handleClick()}</div>
+      <div>
+        <main>{handleClick()}</main>
+      </div>
       <div>
         <Footer></Footer>
       </div>
