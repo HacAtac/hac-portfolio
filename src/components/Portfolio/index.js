@@ -6,9 +6,9 @@ export default function Portfolio() {
   //we're going to use the object's name as the key and the object's image as the value
   const projects = [
     {
-      name: "Awsome-Organics",
-      image: "./images/placeholder-image.png",
-      description: "Full-Stack Application for small business owner",
+      name: "AW-SOME Organics",
+      image: "./images/awsome.PNG",
+      description: "HandleBar, mongoDB, mongoose App for small business owner",
       technologies: [
         "React, Node, Express, mongoDB, mongoose, bcrypt, sessions, handlebars, Heroku",
       ],
@@ -17,14 +17,14 @@ export default function Portfolio() {
     },
     {
       name: "Game Suggestion App ",
-      image: "https://i.imgur.com/qQqQQQQ.png",
+      image: "./images/game.PNG",
       description:
         "Colaborative application that allows users find other cool games and giveaways!",
       technologies: [
         "JavaScript, CSS, HTML, ServerSideAPI, fetch API, AJAX, jQuery, Bootstrap, moment.js, template literals, JSON, git workflow, ZenHub",
       ],
-      github: "https://github.com/HacAtac/Game-Suggestion-App",
-      deployed: "https://game-suggestion-app.herokuapp.com/",
+      github: "",
+      deployed: "https://osbym.github.io/videogame-recommender/",
     },
     {
       name: "API for a Social Media App",
