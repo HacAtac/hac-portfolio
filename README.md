@@ -26,6 +26,10 @@ JSX </br>
 React </br>
 TailWind </br>
 CSS </br>
+Object Oriented Programming </br>
+useEffect </br>
+useState </br>
+props</br>
 
 ## Contributing
 
