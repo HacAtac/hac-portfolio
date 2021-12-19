@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/hac-portfolio/static/css/main.2be4f288.chunk.css",
-    "main.js": "/hac-portfolio/static/js/main.ac21218a.chunk.js",
-    "main.js.map": "/hac-portfolio/static/js/main.ac21218a.chunk.js.map",
+    "main.js": "/hac-portfolio/static/js/main.5dfcfde2.chunk.js",
+    "main.js.map": "/hac-portfolio/static/js/main.5dfcfde2.chunk.js.map",
     "runtime-main.js": "/hac-portfolio/static/js/runtime-main.22938479.js",
     "runtime-main.js.map": "/hac-portfolio/static/js/runtime-main.22938479.js.map",
     "static/js/2.f84abc93.chunk.js": "/hac-portfolio/static/js/2.f84abc93.chunk.js",
@@ -11,12 +11,18 @@
     "static/css/main.2be4f288.chunk.css.map": "/hac-portfolio/static/css/main.2be4f288.chunk.css.map",
     "static/js/2.f84abc93.chunk.js.LICENSE.txt": "/hac-portfolio/static/js/2.f84abc93.chunk.js.LICENSE.txt",
     "static/media/0.aae354cf.jpg": "/hac-portfolio/static/media/0.aae354cf.jpg",
+    "static/media/WMS.fa853f6f.png": "/hac-portfolio/static/media/WMS.fa853f6f.png",
+    "static/media/awsome.cd0d3891.png": "/hac-portfolio/static/media/awsome.cd0d3891.png",
+    "static/media/budget.f75c33ae.png": "/hac-portfolio/static/media/budget.f75c33ae.png",
+    "static/media/ecommerce.5e9c453c.png": "/hac-portfolio/static/media/ecommerce.5e9c453c.png",
+    "static/media/game.1f019a5d.png": "/hac-portfolio/static/media/game.1f019a5d.png",
+    "static/media/mongoAPI.76fd1931.png": "/hac-portfolio/static/media/mongoAPI.76fd1931.png",
     "static/media/resume.pdf": "/hac-portfolio/static/media/resume.e7c3fa9a.pdf"
   },
   "entrypoints": [
     "static/js/runtime-main.22938479.js",
     "static/js/2.f84abc93.chunk.js",
     "static/css/main.2be4f288.chunk.css",
-    "static/js/main.ac21218a.chunk.js"
+    "static/js/main.5dfcfde2.chunk.js"
   ]
 }
