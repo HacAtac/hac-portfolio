@@ -9,7 +9,7 @@ export default function Resume() {
       <h1 id="resume-title">Resume</h1>
       <div className="flex flex-wrap justify-between">
         <div className="bottom-spacing">
-          <a href={require("./../../assets/files/resume.pdf")} download>
+          <a href={require("../../assets/files/resume.pdf")} download>
             <h4 id="color-4-download">Download my Resume</h4>
           </a>
         </div>
