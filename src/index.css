@@ -323,6 +323,28 @@ a {
   color: var(--secondary);
 }
 
+#name-style {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#about {
+  color: var(--primary);
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+
+#icon {
+  margin-right: 10px;
+  color: var(--primary);
+}
+
+#nav-fix {
+  margin-right: 20px;
+}
+
 #tech-title {
   font-size: 1.5rem;
   font-weight: bold;
@@ -366,9 +388,14 @@ a {
 }
 
 #contact-title {
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: bold;
   color: var(--primary);
+  margin-bottom: 50px;
+}
+
+#width {
+  width: 100%;
 }
 
 #name,
@@ -382,6 +409,23 @@ a {
   font-size: 2rem;
   font-weight: bold;
   color: var(--primary);
+}
+
+#resume-download::hover {
+  font-size: 1.1rem;
+  color: var(--secondary);
+}
+
+#orange {
+  color: var(--secondary);
+}
+
+#orange:hover {
+  color: var(--primary);
+}
+
+#color-4-download:hover {
+  color: var(--secondary);
 }
 
 #front-end-title,

@@ -77,6 +77,7 @@ export default function Portfolio() {
       deployed: "https://hacbudget.herokuapp.com/",
     },
   ];
+  //im getting an error here, but it's still working
 
   //6 cards that utilize flex and .map to show projects 2x3
   //that display the project name, image, description, technologies, github, and deployed link

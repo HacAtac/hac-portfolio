@@ -27,8 +27,8 @@ function Nav(props) {
   //so basically when the nav buttons are clicked, were using arrow functions to set the current page to the page they clicked on
 
   return (
-    <nav>
-      <ul className="flex-row mobile-view mt-3">
+    <nav id="nav-fix">
+      <ul className="flex-row mobile-view mt-3 ">
         <li className={currentPage === "about" ? "mx-2 navActive" : "mx-2"}>
           <span onClick={() => setCurrentPage("about")}>About Me</span>
         </li>

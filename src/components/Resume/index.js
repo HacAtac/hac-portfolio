@@ -7,6 +7,13 @@ export default function Resume() {
   return (
     <div className="container">
       <h1 id="resume-title">Resume</h1>
+      <div className="flex flex-wrap justify-between">
+        <div className="bottom-spacing">
+          <a href={require("./../../assets/files/resume.pdf")} download>
+            <h4 id="color-4-download">Download my Resume</h4>
+          </a>
+        </div>
+      </div>
       <div className="flex flex-wrap justify-center">
         <div className="col-md-6 mr-20 pt-10">
           <h3 id="front-end-title">Front End</h3>

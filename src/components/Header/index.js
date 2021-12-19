@@ -6,10 +6,10 @@ function Header(props) {
   const { currentPage, setCurrentPage } = props;
 
   return (
-    <header className="flex-row px-1 header">
+    <header className="flex flex-wrap justify-between px-1 header">
       <h2>
-        <a href="/" className="navActive">
-          <span role="img" aria-label="icon" className="navActive">
+        <a href="/" className="navActive" id="name-style">
+          <span id="icon" role="img" aria-label="icon" className="navActive">
             🖥️
           </span>{" "}
           Jordan Hackworth

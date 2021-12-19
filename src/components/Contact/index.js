@@ -36,9 +36,9 @@ function ContactForm() {
   }
 
   return (
-    <section>
+    <section id="contact-form">
       <h1 id="contact-title">Contact me</h1>
-      <form id="contact-form">
+      <form id="contact-form flex flex-wrap justify-center">
         <div id="width">
           <label id="name" htmlFor="name">
             Name:
@@ -81,6 +81,17 @@ function ContactForm() {
           </div>
         )}
         <button type="submit">Send</button>
+        {/* //my email thats clickable and my phone number thats clickable */}
+        <p id="contact-icons-style" className="contact-info">
+          <a href="mailto:jhack00@icloud.com">
+            <img src="./../images/email.png" alt="email" />
+            <span id="orange">jhack00@icloud.com</span>
+          </a>
+          <a href="tel:+1-917-831-9076">
+            <img src="./../images/phone.png" alt="phone" />
+            <span id="orange">+1(512)779-1870</span>
+          </a>
+        </p>
       </form>
     </section>
   );
