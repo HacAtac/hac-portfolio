@@ -37,10 +37,12 @@ function ContactForm() {
 
   return (
     <section>
-      <h1>Contact me</h1>
+      <h1 id="contact-title">Contact me</h1>
       <form id="contact-form">
-        <div>
-          <label htmlFor="name">Name:</label>
+        <div id="width">
+          <label id="name" htmlFor="name">
+            Name:
+          </label>
           <input
             className="form-input"
             type="text"
@@ -49,8 +51,10 @@ function ContactForm() {
             defaultValue={name}
           />
         </div>
-        <div>
-          <label htmlFor="email">Email address:</label>
+        <div id="width">
+          <label id="email" htmlFor="email">
+            Email address:
+          </label>
           <input
             className="form-input"
             type="email"
@@ -59,8 +63,10 @@ function ContactForm() {
             defaultValue={email}
           />
         </div>
-        <div>
-          <label htmlFor="message">Message:</label>
+        <div id="width">
+          <label id="message" htmlFor="message">
+            Message:
+          </label>
           <textarea
             className="form-input"
             name="message"
