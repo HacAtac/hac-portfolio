@@ -12,7 +12,9 @@ export default function Resume() {
           <a href={require("../../assets/files/resume.pdf").default} download>
             {" "}
             {/*I needed to add .default here to get it to download. It was showing up as empty without it */}
-            <h4 id="color-4-download">Download my Resume</h4>
+            <h4 className="animate-pulse" id="color-4-download">
+              Download my Resume
+            </h4>
           </a>
         </div>
       </div>

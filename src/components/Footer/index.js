@@ -10,6 +10,8 @@ export default function Footer() {
         rel="noopener noreferrer"
       >
         <img
+          id="icon-animate"
+          className="animate-bounce"
           src="https://img.icons8.com/color/48/000000/github.png"
           alt="github"
         />
@@ -22,6 +24,8 @@ export default function Footer() {
         <img
           src="https://img.icons8.com/color/48/000000/linkedin.png"
           alt="linkedin"
+          //make this icon animate by adding tailwind classes to it
+          className="animate-bounce"
         />
       </a>
       <a
@@ -32,6 +36,7 @@ export default function Footer() {
         <img
           src="https://img.icons8.com/color/48/000000/stack-overflow.png"
           alt="stackoverflow"
+          className="animate-bounce"
         />
       </a>
     </div>

@@ -25,6 +25,8 @@ main {
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 html,
@@ -394,10 +396,6 @@ a {
   margin-bottom: 50px;
 }
 
-#width {
-  width: 100%;
-}
-
 #name,
 #email,
 #message {
@@ -451,4 +449,19 @@ a {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+
+/* I want to have animations for my six different #animate-card containers in Portfolio Component */
+#animate-card {
+  opacity: 0.2;
+}
+#animate-card:hover {
+  opacity: 0.9;
+}
+
+/* make my cards bounce up and down when Portfolio page is loaded */
+#animate-card {
+  animation-name: spin;
+  animation-duration: 0.5s;
+  animation-iteration-count: 1;
 }

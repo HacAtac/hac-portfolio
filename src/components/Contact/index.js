@@ -36,64 +36,82 @@ function ContactForm() {
   }
 
   return (
-    <section id="contact-form">
-      <h1 id="contact-title">Contact me</h1>
-      <form id="contact-form flex flex-wrap justify-center">
-        <div id="width">
-          <label id="name" htmlFor="name">
-            Name:
-          </label>
-          <input
-            className="form-input"
-            type="text"
-            name="name"
-            onBlur={handleChange}
-            defaultValue={name}
-          />
-        </div>
-        <div id="width">
-          <label id="email" htmlFor="email">
-            Email address:
-          </label>
-          <input
-            className="form-input"
-            type="email"
-            name="email"
-            onBlur={handleChange}
-            defaultValue={email}
-          />
-        </div>
-        <div id="width">
-          <label id="message" htmlFor="message">
-            Message:
-          </label>
-          <textarea
-            className="form-input"
-            name="message"
-            rows="5"
-            onBlur={handleChange}
-            defaultValue={message}
-          />
-        </div>
-        {errorMessage && (
-          <div>
-            <p className="error-text">{errorMessage}</p>
+    <div className="">
+      <h1 id="contact-title" className="">
+        Contact me
+      </h1>
+      <section id="" className="">
+        <form id="form-control" className=" w-3/4">
+          <div id="" className="">
+            <label id="name" htmlFor="name" className="">
+              Name:
+            </label>
+            <input
+              className="form-input flex"
+              type="text"
+              name="name"
+              onBlur={handleChange}
+              defaultValue={name}
+            />
           </div>
-        )}
-        <button type="submit">Send</button>
-        {/* //my email thats clickable and my phone number thats clickable */}
-        <p id="contact-icons-style" className="contact-info">
-          <a href="mailto:jhack00@icloud.com">
-            <img src="./../images/email.png" alt="email" />
-            <span id="orange">jhack00@icloud.com</span>
-          </a>
-          <a href="tel:+1-917-831-9076">
-            <img src="./../images/phone.png" alt="phone" />
-            <span id="orange">+1(512)779-1870</span>
-          </a>
-        </p>
-      </form>
-    </section>
+          <div id="" className="">
+            <label id="email" htmlFor="email" className="">
+              Email:
+            </label>
+            <input
+              className="form-input flex"
+              type="email"
+              name="email"
+              onBlur={handleChange}
+              defaultValue={email}
+            />
+          </div>
+          <div id="" className="">
+            <label id="message" htmlFor="message" className="flex">
+              Message:
+            </label>
+            <textarea
+              className="form-input"
+              name="message"
+              rows="5"
+              onBlur={handleChange}
+              defaultValue={message}
+            />
+          </div>
+          {errorMessage && (
+            <div>
+              <p className="error-text">{errorMessage}</p>
+            </div>
+          )}
+          <button className="" type="submit">
+            Send
+          </button>
+          {/* //my email thats clickable and my phone number thats clickable */}
+          <p id="contact-icons-style" className="contact-info">
+            <a href="mailto:jhack00@icloud.com " className="">
+              <img
+                src="./../images/email.png"
+                alt="email"
+                className="animate-pulse "
+              />
+              <span id="orange" className="">
+                jhack00@icloud.com
+              </span>
+            </a>
+            <a href="tel:+1-512-779-1970" className="">
+              <img
+                src="./../images/phone.png"
+                alt="phone"
+                className="animate-pulse "
+              />
+              <span id="orange" className="">
+                512-779-1870
+              </span>
+            </a>
+          </p>
+        </form>
+      </section>
+    </div>
   );
 }
 
