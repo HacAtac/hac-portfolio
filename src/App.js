@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
+import Resume from "./components/Resume";
 
 function App() {
   const [currentPage, setCurrentPage] = useState("about");
@@ -16,6 +17,8 @@ function App() {
         return <Portfolio />;
       case "contact":
         return <Contact />;
+      case "resume":
+        return <Resume />;
       default:
         //this is basically saying if the current page is not "about"
         return null; //then return null
