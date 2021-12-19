@@ -7,8 +7,12 @@
  Third: Once I've connected to server, I have created About Me "home render"</br>
  Fourth: Then Ive made Header and Footer components that show correct page once clicked. </br>
  Fifth: I've made sure that the 'category click' updates the webpage title. </br>
- Sixth: </br>
- Once all functionality was completed I've used React to deploy live on GitHub Pages `Link down below` . </br>
+ Sixth: Then I've made the Portfolio component and displayed 6 of my projects in cards that show links and are responsive.</br>
+ Seventh: I've then made the Contact component and have made sure that the form has validation and have put a few icons to contact me via email/phone. </br>
+ Eighth: Then I've made the Resume component and have listed my proficiencies as-well as a downloadle link to Resume('needs 2 be updated') </br>
+ Ninth: I've then used some CSS animations to make the page more active and brushed up some break point issues </br>
+ Once all functionality was completed I've used React to deploy live on GitHub Pages <a href ="https://hacatac.github.io/hac-portfolio/" target="_blank">Link to deployed application.</a>. </br>
+
  </p>
 
 ## Usage
@@ -80,7 +84,7 @@ LinkedIn: https://www.linkedin.com/in/jordan-hackworth-898205217/ </br>
 E-mail: jhack00@icloud.com </br>
 
 <a href ="https://github.com/HacAtac/hac-portfolio" target="_blank">Link to my git hub application.</a></br>
-<a href ="https://hacbudget.herokuapp.com/" target="_blank">Link to deployed application.</a>
+<a href ="https://hacatac.github.io/hac-portfolio/" target="_blank">Link to deployed application.</a>
 
 <h3>Screenshot of app!</h3>
 
