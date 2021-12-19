@@ -90,7 +90,7 @@ export default function Portfolio() {
   //that have media queries to show the project name, image, description, technologies, github, and deployed link
   //in a different size depending on the screen size
   return (
-    <div>
+    <div key={projects.key}>
       <h1 id="state-title" className="Portfolio Projects">
         {" "}
         My Work
