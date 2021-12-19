@@ -45,10 +45,6 @@ body {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-body:hover {
-  cursor: pointer;
-}
-
 h1,
 h2,
 h3,
@@ -325,6 +321,55 @@ a {
 
 .navActive {
   color: var(--secondary);
+}
+
+#tech-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--primary);
+}
+
+#state-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--primary);
+}
+
+#card-image {
+  border: oldlace;
+}
+
+#card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--secondary);
+}
+
+#card-text {
+  font-size: 1.1rem;
+  color: var(--secondary);
+}
+
+#github-link {
+  font-size: 1.1rem;
+  color: var(--secondary);
+}
+
+#deployed-link {
+  font-size: 1.1rem;
+  color: var(--secondary);
+}
+
+#deployed-link::hover {
+  font-size: 1.1rem;
+  color: var(--secondary);
+}
+
+/* when #github-link and #deployed-link is hovered it changes opacity*/
+#github-link:hover,
+#deployed-link:hover {
+  opacity: 0.8;
+  color: var(--primary);
 }
 
 /*i have 3 icon favicon icons in html that needs to be centered on midle of the footer*/
