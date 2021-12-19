@@ -1,6 +1,6 @@
 {
-  "name": "hac-portfolio",
   "homepage": "http://hacatac.github.io/hac-portfolio/",
+  "name": "hac-portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
