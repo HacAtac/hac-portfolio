@@ -1,4 +1,5 @@
 import React from "react";
+// import Project from "./Project";
 
 export default function Portfolio() {
   //here were going to make a an array of objects that will be used to display the portfolio
@@ -15,7 +16,7 @@ export default function Portfolio() {
       ],
       github: "https://github.com/osbym/awsome-organics-gp2",
       deployed: "https://awsomeorganics.herokuapp.com/",
-      key: "1",
+      id: "1",
     },
     {
       name: "Game Suggestion App ",
@@ -28,7 +29,7 @@ export default function Portfolio() {
       ],
       github: "https://github.com/HacAtac/videogame-recommender",
       deployed: "https://osbym.github.io/videogame-recommender/",
-      key: "2",
+      id: "2",
     },
     {
       name: "API for a Social Media App",
@@ -41,7 +42,7 @@ export default function Portfolio() {
       ],
       github: "https://github.com/HacAtac/hacSocializeApi",
       deployed: "https://watch.screencastify.com/v/zXc3jY3S0y3Hv9QVfF1Y",
-      key: "3",
+      id: "3",
     },
     {
       name: "Workforce Management System",
@@ -54,7 +55,7 @@ export default function Portfolio() {
       ],
       github: "https://github.com/HacAtac/hacEmployeeTracker",
       deployed: "https://watch.screencastify.com/v/qRwBBmEJYXPRyPfbVsKU",
-      key: "4",
+      id: "4",
     },
     {
       name: "API for eCommerce App",
@@ -67,7 +68,7 @@ export default function Portfolio() {
       ],
       github: "https://github.com/HacAtac/hac_E_Com_Backend",
       deployed: "https://watch.screencastify.com/v/O1F3wd32RmvhSpObnl4V",
-      key: "5",
+      id: "5",
     },
     {
       name: "Budget Tracker PWA",
@@ -80,10 +81,9 @@ export default function Portfolio() {
       ],
       github: "https://github.com/HacAtac/hacBudgetTracPWA",
       deployed: "https://hacbudget.herokuapp.com/",
-      key: "6",
+      id: "6",
     },
   ];
-  //im getting an error here, but it's still working
 
   //6 cards that utilize flex and .map to show projects 2x3
   //that display the project name, image, description, technologies, github, and deployed link
@@ -100,6 +100,7 @@ export default function Portfolio() {
           <div
             id="animate-card"
             className="w-full md:w-1/2 lg:w-1/3 p-4 skew-y-12 "
+            key={project.id}
           >
             <div className="bg-grey border-2 border-gray-400 rounded-lg shadow-lg p-4 ">
               <h2 id="card-title" className="text-2xl font-bold text-center">

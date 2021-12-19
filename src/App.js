@@ -19,6 +19,7 @@ function App() {
         return <Contact />;
       case "resume":
         return <Resume />;
+
       default:
         //this is basically saying if the current page is not "about"
         return null; //then return null
