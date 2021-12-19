@@ -1,5 +1,10 @@
 import React from "react";
-// import Project from "./Project";
+import awsome from "../../assets/images/awsome.png";
+import game from "../../assets/images/game.png";
+import mongoAPI from "../../assets/images/mongoAPI.png";
+import WMS from "../../assets/images/WMS.png";
+import ecommerce from "../../assets/images/ecommerce.png";
+import budget from "../../assets/images/budget.png";
 
 export default function Portfolio() {
   //here were going to make a an array of objects that will be used to display the portfolio
@@ -8,7 +13,7 @@ export default function Portfolio() {
   const projects = [
     {
       name: "AWSOME",
-      image: "./../images/awsome.png",
+      image: awsome,
       techtitle: "Tech Used:",
       description: "FullStack App made for a client",
       technologies: [
@@ -20,7 +25,7 @@ export default function Portfolio() {
     },
     {
       name: "Game Suggestion App ",
-      image: "./../images/game.png",
+      image: game,
       techtitle: "Tech Used:",
       description:
         "Colaborative app that uses Open Source API's to find their next game + game giveaways!",
@@ -33,7 +38,7 @@ export default function Portfolio() {
     },
     {
       name: "API for a Social Media App",
-      image: "./../images/mongoAPI.png",
+      image: mongoAPI,
       techtitle: "Tech Used:",
       description:
         "Backend CRUD API that utilizes sub documents, .populate(), .virtuals()",
@@ -46,7 +51,7 @@ export default function Portfolio() {
     },
     {
       name: "Workforce Management System",
-      image: "./../images/WMS.png",
+      image: WMS,
       techtitle: "Tech Used:",
       description:
         "Backend CMS that allows for companies to create, update, and delete their own information",
@@ -59,7 +64,7 @@ export default function Portfolio() {
     },
     {
       name: "API for eCommerce App",
-      image: "./../images/ecommerce.png",
+      image: ecommerce,
       techtitle: "Tech Used:",
       description:
         "Backend ORM API for eCommerce App that utilized CRUD methods to create, read, update, and delete data",
@@ -72,7 +77,7 @@ export default function Portfolio() {
     },
     {
       name: "Budget Tracker PWA",
-      image: "./../images/budget.png",
+      image: budget,
       techtitle: "Tech Used:",
       description:
         "PWA that allows users to track their budget even offline, and uploads it to a database once connected",
@@ -90,7 +95,7 @@ export default function Portfolio() {
   //that have media queries to show the project name, image, description, technologies, github, and deployed link
   //in a different size depending on the screen size
   return (
-    <div key={projects.key}>
+    <div>
       <h1 id="state-title" className="Portfolio Projects">
         {" "}
         My Work

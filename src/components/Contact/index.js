@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { validateEmail } from "../../utils/helpers";
+import phone from "../../assets/images/phone.png";
+import emailme from "../../assets/images/email-me.png";
 
 function ContactForm() {
   const [formState, setFormState] = useState({
@@ -63,7 +65,7 @@ function ContactForm() {
               type="email"
               name="email"
               onBlur={handleChange}
-              defaultValue={email}
+              defaultValue={email} //this is the default value from the state object above
             />
           </div>
           <div id="" className="">
@@ -89,21 +91,14 @@ function ContactForm() {
           {/* //my email thats clickable and my phone number thats clickable */}
           <p id="contact-icons-style" className="contact-info">
             <a href="mailto:jhack00@icloud.com " className="">
-              <img
-                src="./../images/email.png"
-                alt="email"
-                className="animate-pulse "
-              />
+              <img src={emailme} alt="email1" className="animate-pulse " />
               <span id="orange" className="">
                 jhack00@icloud.com
               </span>
             </a>
             <a href="tel:+1-512-779-1970" className="">
-              <img
-                src="./../images/phone.png"
-                alt="phone"
-                className="animate-pulse "
-              />
+              <img src={phone} alt="phone" className="animate-pulse " />
+
               <span id="orange" className="">
                 512-779-1870
               </span>
