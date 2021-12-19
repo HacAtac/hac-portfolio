@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/hac-portfolio/static/css/main.2be4f288.chunk.css",
+    "main.js": "/hac-portfolio/static/js/main.ac21218a.chunk.js",
+    "main.js.map": "/hac-portfolio/static/js/main.ac21218a.chunk.js.map",
+    "runtime-main.js": "/hac-portfolio/static/js/runtime-main.22938479.js",
+    "runtime-main.js.map": "/hac-portfolio/static/js/runtime-main.22938479.js.map",
+    "static/js/2.f84abc93.chunk.js": "/hac-portfolio/static/js/2.f84abc93.chunk.js",
+    "static/js/2.f84abc93.chunk.js.map": "/hac-portfolio/static/js/2.f84abc93.chunk.js.map",
+    "index.html": "/hac-portfolio/index.html",
+    "static/css/main.2be4f288.chunk.css.map": "/hac-portfolio/static/css/main.2be4f288.chunk.css.map",
+    "static/js/2.f84abc93.chunk.js.LICENSE.txt": "/hac-portfolio/static/js/2.f84abc93.chunk.js.LICENSE.txt",
+    "static/media/0.aae354cf.jpg": "/hac-portfolio/static/media/0.aae354cf.jpg",
+    "static/media/resume.pdf": "/hac-portfolio/static/media/resume.e7c3fa9a.pdf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.22938479.js",
+    "static/js/2.f84abc93.chunk.js",
+    "static/css/main.2be4f288.chunk.css",
+    "static/js/main.ac21218a.chunk.js"
+  ]
+}
