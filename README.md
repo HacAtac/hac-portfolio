@@ -37,7 +37,7 @@ props</br>
 
 ## Contributing
 
-If you'd like to contribute to this Budget Trac App you can fork or clone this repo and have at it! </br>
+If you'd like to contribute to this App you can fork and clone this repo and have at it! </br>
 
 ## User Story
 
@@ -75,7 +75,7 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 ## Author
 
 Greetings! <('.') , >('.')> </br>
-My name is Jordan Hackworth and I hope that this application catches your eye and helps show you my ablities in the workplace! </br>
+My name is Jordan Hackworth and I hope that this application catches your eye and helps showcase my abilities. </br>
 If you have any questions, comments, or concerns please feel free to contact me. </br>
 
 Jordan Hackworth aka HacAtac </br>
