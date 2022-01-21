@@ -3,8 +3,9 @@ import awsome from "../../assets/images/awsome.png";
 import game from "../../assets/images/game.png";
 import mongoAPI from "../../assets/images/mongoAPI.png";
 import WMS from "../../assets/images/WMS.png";
-import ecommerce from "../../assets/images/ecommerce.png";
+// import ecommerce from "../../assets/images/ecommerce.png";
 import budget from "../../assets/images/budget.png";
+import screenshot from "../../assets/images/screenshot.PNG";
 
 export default function Portfolio() {
   //here were going to make a an array of objects that will be used to display the portfolio
@@ -17,7 +18,7 @@ export default function Portfolio() {
       techtitle: "Tech Used:",
       description: "FullStack App made for a client",
       technologies: [
-        "Node, Express, mongoDB, mongoose, bcrypt, sessions, handlebars, Heroku",
+        "Node, Express, mySQL, sequelize, bcrypt, sessions, handlebars, Heroku",
       ],
       github: "https://github.com/osbym/awsome-organics-gp2",
       deployed: "https://awsomeorganics.herokuapp.com/",
@@ -63,18 +64,31 @@ export default function Portfolio() {
       id: "4",
     },
     {
-      name: "API for eCommerce App",
-      image: ecommerce,
+      name: "GTX-Mobile-Detailing",
+      image: screenshot,
       techtitle: "Tech Used:",
       description:
-        "Backend ORM API for eCommerce App that utilized CRUD methods to create, read, update, and delete data",
+        "MERN stack app to help a client manage his services and bookings",
       technologies: [
-        "JavaScript, Node, Express, sequelize, mySQL, dotenv, Insomnia, JSON, ScreenCastify, MVC architecture, object-oriented programming",
+        "MongoDB, Mongoose, Express, GraphQL, Apollo, React, Node, Heroku, MVC architecture",
       ],
-      github: "https://github.com/HacAtac/hac_E_Com_Backend",
-      deployed: "https://watch.screencastify.com/v/O1F3wd32RmvhSpObnl4V",
+      github: "https://github.com/HacAtac/gtx-mobile-detailing",
+      deployed: "https://gtxdetailing.herokuapp.com/",
       id: "5",
     },
+    // {
+    //   name: "API for eCommerce App",
+    //   image: ecommerce,
+    //   techtitle: "Tech Used:",
+    //   description:
+    //     "Backend ORM API for eCommerce App that utilized CRUD methods to create, read, update, and delete data",
+    //   technologies: [
+    //     "JavaScript, Node, Express, sequelize, mySQL, dotenv, Insomnia, JSON, ScreenCastify, MVC architecture, object-oriented programming",
+    //   ],
+    //   github: "https://github.com/HacAtac/hac_E_Com_Backend",
+    //   deployed: "https://watch.screencastify.com/v/O1F3wd32RmvhSpObnl4V",
+    //   id: "5",
+    // },
     {
       name: "Budget Tracker PWA",
       image: budget,

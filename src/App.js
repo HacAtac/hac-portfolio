@@ -21,8 +21,9 @@ function App() {
         return <Resume />;
 
       default:
-        //this is basically saying if the current page is not "about"
-        return null; //then return null
+        return <About> Your current feed</About>;
+      //this is basically saying if the current page is not "about"
+      // return null; //then return null
       //this is nice because it will not render anything other than the About component
     }
   };
