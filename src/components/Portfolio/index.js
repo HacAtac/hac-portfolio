@@ -25,17 +25,17 @@ export default function Portfolio() {
       id: "1",
     },
     {
-      name: "Game Suggestion App ",
-      image: game,
+      name: "GTX-Mobile-Detailing",
+      image: screenshot,
       techtitle: "Tech Used:",
       description:
-        "Colaborative app that uses Open Source API's to find their next game + game giveaways!",
+        "MERN stack app to help a client manage his services and bookings",
       technologies: [
-        "JS, Bulma, ServerSideAPI, AJAX, jQuery, moment.js, template literals, JSON, git workflow, ZenHub",
+        "MongoDB, Mongoose, Express, GraphQL, Apollo, React, Node, Heroku, MVC architecture",
       ],
-      github: "https://github.com/HacAtac/videogame-recommender",
-      deployed: "https://osbym.github.io/videogame-recommender/",
-      id: "2",
+      github: "https://github.com/HacAtac/gtx-mobile-detailing",
+      deployed: "https://gtxdetailing.herokuapp.com/",
+      id: "5",
     },
     {
       name: "API for a Social Media App",
@@ -51,6 +51,20 @@ export default function Portfolio() {
       id: "3",
     },
     {
+      name: "Game Suggestion App ",
+      image: game,
+      techtitle: "Tech Used:",
+      description:
+        "Colaborative app that uses Open Source API's to find their next game + game giveaways!",
+      technologies: [
+        "JS, Bulma, ServerSideAPI, AJAX, jQuery, moment.js, template literals, JSON, git workflow, ZenHub",
+      ],
+      github: "https://github.com/HacAtac/videogame-recommender",
+      deployed: "https://osbym.github.io/videogame-recommender/",
+      id: "2",
+    },
+
+    {
       name: "Workforce Management System",
       image: WMS,
       techtitle: "Tech Used:",
@@ -63,19 +77,7 @@ export default function Portfolio() {
       deployed: "https://watch.screencastify.com/v/qRwBBmEJYXPRyPfbVsKU",
       id: "4",
     },
-    {
-      name: "GTX-Mobile-Detailing",
-      image: screenshot,
-      techtitle: "Tech Used:",
-      description:
-        "MERN stack app to help a client manage his services and bookings",
-      technologies: [
-        "MongoDB, Mongoose, Express, GraphQL, Apollo, React, Node, Heroku, MVC architecture",
-      ],
-      github: "https://github.com/HacAtac/gtx-mobile-detailing",
-      deployed: "https://gtxdetailing.herokuapp.com/",
-      id: "5",
-    },
+
     // {
     //   name: "API for eCommerce App",
     //   image: ecommerce,
