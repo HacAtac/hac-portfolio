@@ -1,5 +1,5 @@
 import React from "react";
-import devImage from "../../assets/small/portraits/0.jpg";
+import devImage from "../../assets/small/portraits/portpic.jpeg";
 
 function About() {
   return (
@@ -8,6 +8,7 @@ function About() {
         Who am I?
       </h1>
       <img
+        id="dev-image"
         src={devImage}
         className="my-2 px-2"
         style={{ width: "40%" }}

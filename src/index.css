@@ -148,6 +148,18 @@ input {
   transition: box-shadow 0.2s;
 }
 
+/* #dev-image {
+  width: 30%;
+  height: 300px;
+} */
+
+#dev-image {
+  height: 300px;
+  width: 50%;
+  margin-bottom: 20px;
+  border-radius: 15px;
+}
+
 input:focus {
   border: 1px solid var(--secondary);
   box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5);
