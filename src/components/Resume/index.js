@@ -55,6 +55,7 @@ export default function Resume() {
             <li>OOP</li>
             <li>MVC</li>
             <li>RESTful API</li>
+            <li>GraphQL/Apollo</li>
             <li>CRUD</li>
             <li>Sessions</li>
             <li>Bcrypt</li>
