@@ -58,6 +58,7 @@ export default function Resume() {
             <li>GraphQL/Apollo</li>
             <li>CRUD</li>
             <li>Sessions</li>
+            <li>Authentication with JWT</li>
             <li>Bcrypt</li>
           </ul>
         </div>
