@@ -5,14 +5,14 @@ import emailme from "../../assets/images/email-me.png";
 
 function ContactForm() {
   const [formState, setFormState] = useState({
-    name: "",
+    firstName: "",
     email: "",
     message: "",
   });
 
   const [errorMessage, setErrorMessage] = useState("");
 
-  const { name, email, message } = formState;
+  const { firstName, email, message } = formState;
 
   function handleChange(e) {
     if (e.target.name === "email") {
@@ -24,7 +24,7 @@ function ContactForm() {
       }
     } else {
       if (!e.target.value.length) {
-        setErrorMessage(`${e.target.name} is required`);
+        setErrorMessage(`${e.target.firstName} is required`);
       } else {
         setErrorMessage("");
       }
@@ -46,14 +46,14 @@ function ContactForm() {
         <form id="form-control" className=" w-3/4">
           <div id="" className="">
             <label id="name" htmlFor="name" className="">
-              Name:
+              First Name:
             </label>
             <input
               className="form-input flex"
               type="text"
               name="name"
               onBlur={handleChange}
-              defaultValue={name}
+              defaultValue={firstName}
             />
           </div>
           <div id="" className="">

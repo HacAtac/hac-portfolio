@@ -1,5 +1,5 @@
 import React from "react";
-import devImage from "../../assets/small/portraits/portpic.jpeg";
+import devImage from "../../assets/small/portraits/0.jpg";
 
 function About() {
   return (
