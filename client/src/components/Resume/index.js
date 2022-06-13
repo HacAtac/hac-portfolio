@@ -38,6 +38,7 @@ export default function Resume() {
             <li>Tailwind</li>
             <li>Bulma</li>
             <li>Bootstrap</li>
+            <li>Styled Components</li>
             <li>Media Queries</li>
             <li>Responsive Design</li>
 
@@ -48,23 +49,27 @@ export default function Resume() {
           <h3 id='back-end-title'>Back End</h3>
           <ul>
             <li>Node.js</li>
+            <li>Python</li>
             <li>Express</li>
+            <li>Django</li>
             <li>MongoDB</li>
             <li>Mongoose</li>
             <li>MySQL</li>
             <li>Sequelize</li>
-            <li>MongoDB Atlas</li>
+            <li>Postgres</li>
+            <li>RESTful API</li>
+            <li>GraphQL/Apollo</li>
             <li>Postman</li>
             <li>Heroku</li>
             <li>Git</li>
             <li>Jest</li>
             <li>OOP</li>
             <li>MVC</li>
-            <li>RESTful API</li>
-            <li>GraphQL/Apollo</li>
             <li>CRUD</li>
             <li>Sessions</li>
-            <li>Authentication with JWT</li>
+            <li>JWT</li>
+            <li>CDN's Programatically</li>
+            <li>Deployment</li>
             <li>Bcrypt</li>
           </ul>
         </div>

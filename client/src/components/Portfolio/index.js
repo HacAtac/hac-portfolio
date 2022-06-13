@@ -6,8 +6,8 @@ import mongoAPI from '../../assets/images/mongoAPI.png'
 import WMS from '../../assets/images/WMS.png'
 // import ecommerce from "../../assets/images/ecommerce.png";
 import budget from '../../assets/images/budget.png'
-import screenshot from '../../assets/images/screenshot.PNG'
-
+//import screenshot from '../../assets/images/screenshot.PNG'
+import realty from '../../assets/images/realty.png'
 export default function Portfolio() {
   //here were going to make a an array of objects that will be used to display the portfolio
   //we're going to use the map function to loop through the array and return a div for each object
@@ -52,18 +52,31 @@ export default function Portfolio() {
       id: '3',
     },
     {
-      name: 'GTX-Mobile-Detailing',
-      image: screenshot,
+      name: 'JH Realty',
+      image: realty,
       techtitle: 'Tech Used:',
       description:
-        'MERN stack app to help a client manage his services and bookings',
+        'FullStack Python app to help realtors find clients and manage their properties',
       technologies: [
-        'MongoDB, Mongoose, Express, GraphQL, Apollo, React, Node, Heroku, MVC architecture',
+        'Python, Django, Postgres, HTML5 Templating, CSS3, Bootstrap, Cloud Deployment, MVC',
       ],
-      github: 'https://github.com/HacAtac/gtx-mobile-detailing',
-      deployed: 'https://gtxdetailing.herokuapp.com/',
+      github: 'https://github.com/HacAtac/hacPython',
+      deployed: 'http://www.jhrealestate.co/',
       id: '5',
     },
+    // {
+    //   name: 'GTX-Mobile-Detailing',
+    //   image: screenshot,
+    //   techtitle: 'Tech Used:',
+    //   description:
+    //     'MERN stack app to help a client manage his services and bookings',
+    //   technologies: [
+    //     'MongoDB, Mongoose, Express, GraphQL, Apollo, React, Node, Heroku, MVC architecture',
+    //   ],
+    //   github: 'https://github.com/HacAtac/gtx-mobile-detailing',
+    //   deployed: 'https://gtxdetailing.herokuapp.com/',
+    //   id: '5',
+    // },
 
     {
       name: 'Workforce Management System',
