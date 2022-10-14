@@ -1,5 +1,5 @@
 import express from "express";
-import contactMe from "../controllers/message-controller.js";
+import contactMe from "../controllers/contact/newContact.js";
 const router = express.Router();
 /**
  * @description adminRoutes
@@ -14,6 +14,6 @@ const router = express.Router();
 //
 //
 
-router.route("/success").post(contactMe);
+router.route("/").post(contactMe);
 
 export default router;

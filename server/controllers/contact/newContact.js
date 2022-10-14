@@ -1,15 +1,15 @@
 import expressAsyncHandler from "express-async-handler";
-import Contact from "../models/Contact.js";
+import Contact from "../../models/Contact.js";
 
 export const contactMe = expressAsyncHandler(async (req, res, next) => {
-  const { firstName, email, message } = req.body;
   try {
-    const contactEntry = await Contact.create({
-      firstName,
-      email,
-      message,
+    //spread operator the the req.body
+    const contact = await Contact.create({ ...req.body });
+    res.status(201).json({
+      success: true,
+      message: "Message sent successfully",
+      contact,
     });
-    res.json(contactEntry);
   } catch (error) {
     console.log(error.message);
     res.status(500).json.send(`Error: ${error.message}`);
