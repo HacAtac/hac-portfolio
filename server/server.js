@@ -7,6 +7,7 @@ import path from "path";
 // Routes
 // import userRoutes from "./routes/userRoutes.js";
 import contactRoutes from "./routes/contactRoutes.js";
+import authRoutes from "./routes/authRoutes.js";
 
 //import middlewares
 import mongoSanitize from "express-mongo-sanitize";
@@ -43,6 +44,7 @@ app.use(hpp());
 // Define Routes
 // app.use("/api/user", userRoutes);
 app.use("/api/contact", contactRoutes);
+app.use("/api/auth", authRoutes);
 
 // Set static folder
 const __dirname = path.resolve();
