@@ -23,7 +23,7 @@
   "scripts": {
     "start": "craco start",
     "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
-    "build": "craco build",
+    "build": "CI=false craco build",
     "test": "craco test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
