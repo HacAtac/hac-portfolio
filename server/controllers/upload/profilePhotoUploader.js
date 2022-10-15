@@ -55,8 +55,6 @@ export const imageUploader = expressAsyncHandler(async (req, res) => {
 
     // Create custom filename
     file.name = slugify(`${fileName.name}`, { lower: true }) + "-photo.png";
-    //console.log(`slugged Name: ${file.name}`)
-    // move file to the public images folder
     file.mv(`public/images/${file.name}`, async (err) => {
       if (err) {
         return res
@@ -64,10 +62,7 @@ export const imageUploader = expressAsyncHandler(async (req, res) => {
           .json({ message: `Problem with file being moved to filesystem` });
       }
     });
-    //---------------------------------------------------------------------//
-    //   Lines 71-82 make it so the uploaded image fits inside whatever the
-    //   container size is. So that is doesn't cut off the image.
-    //---------------------------------------------------------------------//
+
     let width = await sharp(file.data)
       .metadata()
       .then((metadata) => {
@@ -92,8 +87,7 @@ export const imageUploader = expressAsyncHandler(async (req, res) => {
     const username = user.username;
     // console.log("user", user);
     const photo = await fs.readFile(`public/images/${file.name}`);
-    // console.log('photo', photo)
-    //also want to upload the photo's to the image folder in the truthcasting bucket, because if we delete the user's bucket, the photo's will be deleted as well
+
     let request = {
       host: process.env.CDN_HOST,
       method: "PUT",
@@ -102,7 +96,6 @@ export const imageUploader = expressAsyncHandler(async (req, res) => {
       data: photo,
       body: photo,
       headers: {
-        //content-type should be application/octet-stream which means binary data or a stream of bytes
         "Content-Type": "photo/png",
       },
       service: "s3",
@@ -110,7 +103,6 @@ export const imageUploader = expressAsyncHandler(async (req, res) => {
       maxContentLength: Infinity,
       maxBodyLength: Infinity,
     };
-    // console.log("request", request);
 
     let signedRequest = aws4.sign(request, {
       accessKeyId: process.env.CDN_KEY,
@@ -127,8 +119,6 @@ export const imageUploader = expressAsyncHandler(async (req, res) => {
     const imageUrl = `https://${process.env.CDN_HOST}/${process.env.CDN_BUCKET}/${username}/images/${file.name}`;
     await fs.unlink(`public/images/${file.name}`, function (err) {
       if (err) throw err;
-      // if no error, file has been deleted successfully
-      // console.log('File deleted!')
     });
 
     res.json({ imageUrl });
