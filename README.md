@@ -25,6 +25,7 @@ CSS </br>
 Node </br>
 Express </br>
 MongoDB </br>
+RESTfull API </br>
 JSON Web Token </br>
 
 ## Contributing
